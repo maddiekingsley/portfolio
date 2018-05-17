@@ -262,7 +262,6 @@ label:focus {
   padding-left: 0;
   float: left;
   display: block;
-  color: #C2C6C5;
 }
 a.site__logo__name:hover {
   color: #FF6B6B;
@@ -277,7 +276,6 @@ ul {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  list-style-type: none;
 }
 .nav-collapse ul {
   float: right;
@@ -356,5 +354,39 @@ li {
 .list {
   line-height: 2em;
   text-align: left;
-  margin: 40px 120px;
+  margin: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .home__intro__blurb {
+    padding: 0px 10px;
+  }
+  .center-text {
+    margin: 30px 10px !important;
+  }
+  .previous-work{
+    margin-bottom: 50px;
+  }
+  .previous-work h2.text{
+    margin-top: 0px;
+  }
+
+  .text-center.footer-below{
+    text-align: initial;
+  }
+
+  a.site__logo__name {
+    position: relative;
+    display: block;
+    left: 84px;
+  }
+  .home__wrapper {
+    padding-top: 20px;
+  }
+  .nav-collapse ul{
+    right: 59px;
+    bottom: 10px;
+    position: relative;
+  }
 }
