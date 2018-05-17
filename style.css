@@ -95,6 +95,10 @@ label:focus {
   padding-bottom: 15px;
 }
 
+#freelance .description .paragraphs {
+  text-align: inherit;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -276,6 +280,7 @@ ul {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  list-style: none;
 }
 .nav-collapse ul {
   float: right;
@@ -346,6 +351,8 @@ li {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
 .footer-below {
   font-size: 14px;
   width: 100%;
@@ -359,7 +366,8 @@ li {
 
 
 @media screen and (max-width: 600px) {
-  .home__intro__blurb {
+  .home__intr
+  o__blurb {
     padding: 0px 10px;
   }
   .center-text {
