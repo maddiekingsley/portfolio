@@ -12,6 +12,7 @@
       Madeleine Kingsley
     </title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Custom CSS-->
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap Core CSS -->
@@ -29,215 +30,236 @@
       href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
       rel="stylesheet">
   </head>
-
   <body>
     <!--Navigation-->
-    <section>
-      <header class="container site__header ">
-        <div class="row">
-          <div class="site__logo">
-            <a class="site__logo__name" href="index.html"></a>
-          </div>
-          <nav class="nav-collapse" role="navigation">
-            <div class="container-fluid">
-              <ul>
-                <li>
-                  <a href="img/Madeleine_kingsley_2017_November.pdf" target="_blank">Resume</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact Me</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <!-- <header class="container site__header">
+      <div class="row">
+        <div class="site__logo">
+          <a class="site__logo__name" href="index.html"></a>
         </div>
-      </header>
+        <nav class="nav-collapse" role="navigation">
+          <div class="container-fluid">
+            <ul>
+              <li>
+                <a href="previousEmployment.html">Work</a>
+              </li>
+              <li>
+                <a href="portfolio.html">University</a>
+              </li>
+              <li>
+                <a href="freelance.html">Projects</a>
+              </li>
+              <li>
+                <a href="img/Madeleine_kingsley_october_2019.pdf" target="_blank">Resume</a>
+              </li>
+              <li>
+                <a href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header> -->
+    <header id="header">
 
-      <!--Introduction-->
-      <div class="home__wrapper">
-        <div class="home__intro">
-          <div class="profile__picture">
-            <img src="img/profilepic.jpg" class="add-padding img-responsive img-circle"></img>
-          </div>
-          <h1 class="home__intro__tagline">
-            Hello, I'm Maddie
-          </h1>
-          <div class="home__intro__blurb">
-            UI/UX Designer | Front End Developer | Constantly laughing at own jokes
-            <br>
-            <!--Linkedin-->
-            <a
-              href="https://www.linkedin.com/in/madeleine-kingsley/"
-              target="_blank"
-              type="button"
-              class="btn-floating btn-lg btn-li">
-              <i class="fa fa-linkedin"></i>
-            </a>
-            <!--Dribbble-->
-            <a
-              href="https://dribbble.com/madeleinekingsley"
-              target="_blank"
-              type="button"
-              class="btn-floating btn-lg btn-dribbble">
-              <i class="fa fa-dribbble"></i>
-            </a>
-            <!--Github-->
-            <a
-              href="https://github.com/maddiekingsley"
-              target="_blank"
-              type="button"
-              class="btn-floating btn-lg btn-git">
-              <i class="fa fa-github"></i>
-            </a>
-          </div>
+    </header>
 
-          <div class="container-fluid paragraphs">
-            <p class="center-text">Based in Sydney, Australia, I graduated from the University of Queensland
-              with a Bachelor of Information Technology. I have gained a software and design skillset through the
-              creations of responsive websites, installations, freelance projects and working for software
-              companies. My specialities include communication, User Experience, User Interface, web and visual
-              design.
-            </p>
-          </div>
+
+    <!--Introduction-->
+    <div class="home__wrapper">
+      <div class="home__intro">
+        <div class="profile__picture">
+          <img src="img/profilepic.jpg" class="add-padding img-responsive img-circle"></img>
         </div>
-      </section>
-      <div class="breaker">
-        <img src="img/dots.png">
-      </div>
-
-      <!--Previous Work-->
-      <section class="container" id="portfolio">
-        <div class="row">
-          <div class="previous-work col-sm-4">
-            <a href="previousEmployment.html" class="portfolio-link">
-              <img src="img/graphic-01.png" class="img-responsive">
-              <h2 class="text">
-                Previous Employment
-              </h2>
-            </a>
-            <p>
-              Contributations I made to my pervious work place.
-            </p>
-          </div>
-          <div class="previous-work col-sm-4">
-            <a href="portfolio.html" class="portfolio-link">
-              <img src="img/graphic-02.png" class="img-responsive">
-              <h2 class="text">
-                University Projects
-              </h2>
-            </a>
-            <p>
-              A place where you can find some of my favourite work from my degree.
-            </p>
-          </div>
-          <div class="previous-work col-sm-4">
-            <a href="freelance.html" class="portfolio-link">
-              <img src="img/graphic-03.png" class="img-responsive">
-              <h2 class="text">
-                My Projects
-              </h2>
-            </a>
-            <p>
-              Here's a selection of my own work. A mixture of freelance and personal projects.
-            </p>
-          </div>
+        <h1 class="home__intro__tagline">
+          Hello, I'm Maddie
+        </h1>
+        <div class="home__intro__blurb">
+          Relish feedback | Coffee and conversation | Constantly laughing at own jokes
+          <br>
+          <!--Linkedin-->
+          <a
+            href="https://www.linkedin.com/in/madeleine-kingsley/"
+            target="_blank"
+            type="button"
+            class="btn-floating btn-lg btn-li">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <!--Dribbble-->
+          <a
+            href="https://dribbble.com/madeleinekingsley"
+            target="_blank"
+            type="button"
+            class="btn-floating btn-lg btn-dribbble">
+            <i class="fa fa-dribbble"></i>
+          </a>
+          <!--Github-->
+          <a
+            href="https://github.com/maddiekingsley"
+            target="_blank"
+            type="button"
+            class="btn-floating btn-lg btn-git">
+            <i class="fa fa-github"></i>
+          </a>
         </div>
-      </section>
 
-      <div class="breaker">
-        <img src="img/dots.png">
+        <div class="container-fluid paragraphs">
+          <p class="center-text">
+            My name is Maddie, sometimes Mads, if I am in feeling really proper, Madeleine. I have taken many
+            titles, waitress, admin, hippy, front end developer, graphic designer, UI designer, games night
+            hostess. Many titles, many names.
+            <br></br>
+            <b>
+              I simply consider myself a designer. A board term, with endless possibilities.</b>
+          </p>
+        </div>
       </div>
+    </section>
+    <div class="breaker">
+      <img src="img/dots.png">
+    </div>
 
-      <h2 class="text">
-        So, you might ask... Why should you hire me?
-      </h2>
+    <h2 class="text">
+      Why should you hire me?
+    </h2>
 
-      <div class="container-fluid paragraphs">
-        <p class="center-text">
-          I am still relatively fresh to the industry, but that is what makes me acceptable to change and give me edge with my own
-          dynamic ideas. I excell in creative roles, but thoughout the years I have found myself fulfilling an “all-rounder” position, building on skills ranging from UX design to front end development. My knowledge and skillset includes, but is not limited to: <br>
-          Research & observation<br>
-          Prototyping and Evaluation <br>
-          Wireframing/prototyping <br>
-          Web design and development capability<br>
-          Adobe Creative Suite - Illustrator, Premiere Pro InDesign, Photoshop<br>
-          HTML, CSS, SASS, Angular.js, Java Script <br>
-          Bootstrap Framework<br>
-          Solid UX/UI driven conceptual design skills
-          <br></br>
-          Want more information? Explore my portfolio!
-        </p>
-      </div>
+    <div class="container-fluid paragraphs">
+      <p class="center-text">
+        Over the past three years, the majority of my experience has matured within two start-ups. Small
+        companies specialising in education and the payments space, in a setting where I have usually been
+        the only designer. This had been a blessing but also a downfall, as I do not know what working in a
+        large scale teams look like, yet I am used to handling many curve balls from the business, marketing
+        and tech team.
+        <br></br>
+        My more refined skills are designing for iOS and Android interfaces and sparking conversations with
+        people. Whether that’s getting out and engaging with our audience or building company culture within
+        the office. I am hungry to learn more about this forever evolving industry. Specifically getting my
+        hands dirty facilitating interviews with the humans using the products as well as talking dev and
+        getting more evolved in the development. Overall, end to end product development captures my
+        interest.
+        <br></br>
+        I consider myself an all-rounder person, which has grown over the past year and a half due to
+        juggled two jobs. It has helped me grow and expand in a number of areas, rangeing from the
+        communication of ideas and concepts to students and teams, iterating constantly on visual designs
+        all the way through to deployment. I am looking forward possible future work presented to me as I
+        continue to gain experience and commence my career.
+        <br></br>
+        Want more information? Explore my portfolio!
+      </p>
     </div>
 
     <div class="breaker">
       <img src="img/dots.png">
     </div>
 
-      <section id="resume">
-        <h2 class="text">
-          Resume</h2>
-        <div class="sub-heading">
-          Skill, previous experience and referees</div>
-        <div class="container-fluid paragraphs">
-          <p class="center-text">
-            Here you can find a more detailed account of my work history. I have worked in the I.T industry for roughly 2 years and counting.</p>
-          <br></br>
+    <!--Previous Work-->
+    <section class="container" id="portfolio">
+      <div class="row">
+        <div class="previous-work col-sm-4">
+          <a href="previousEmployment.html" class="portfolio-link">
+            <img src="img/graphic-01.png" class="img-responsive">
+            <h2 class="text">
+              Work
+            </h2>
+          </a>
+          <p>
+            Interface designs, research methods and how I work.
+          </p>
         </div>
-        <div class="read__more__container">
-          <a class="read__more" href="img/Madeleine_kingsley_2017_November.pdf" target="_blank">Read More</a>
+        <div class="previous-work col-sm-4">
+          <a href="portfolio.html" class="portfolio-link">
+            <img src="img/graphic-02.png" class="img-responsive">
+            <h2 class="text">
+              University Projects
+            </h2>
+          </a>
+          <p>
+            A place where you can find some of my favourite work from my degree.
+          </p>
         </div>
-      </section>
-
-      <div class="breaker">
-        <img src="img/dots.png">
-      </div>
-
-    <!-- Contact Deatils-->
-    <section id="contact">
-      <div class="container">
-        <h2 class="text">
-          Contact Me
-        </h2>
-        <div class="sub-heading">
-          Need to contact me? That's great! Give me a call or send me an email</div>
-
-        <div class="row">
-          <div class="text-center col-md-6">
-            <a href="mailto:maddiekingsley1209@gmail.com">
-              <span class="glyphicon glyphicon-envelope" style="font-size: 70px;"></span>
-            </a>
-            <p>
-              maddiekingsley1209@gmail.com
-            </p>
-          </div>
-
-          <div class="col-sm-6 ">
-            <div class="phone-img">
-              <img src="img/telephone2.png" alt="Phone Symbol" width="40" height="40">
-            </div>
-            <p class="text-center">0481 259 281</p>
-          </div>
+        <div class="previous-work col-sm-4">
+          <a href="freelance.html" class="portfolio-link">
+            <img src="img/graphic-03.png" class="img-responsive">
+            <h2 class="text">
+              My Projects
+            </h2>
+          </a>
+          <p>
+            Here's a selection of my own work. A couple of bits and pieces.
+          </p>
         </div>
       </div>
     </section>
+
+    <div class="breaker">
+      <img src="img/dots.png">
+    </div>
+
   </div>
-  <!-- Footer -->
-  <footer class="text-center footer-below">
+  <section id="resume">
+    <h2 class="text">
+      Resume</h2>
+    <div class="sub-heading">
+      Here you can find a more detailed account of my work history and referees.</div>
+    <div class="read__more__container">
+      <a class="read__more" href="img/Madeleine_kingsley_october_2019.pdf" target="_blank">Read More</a>
+    </div>
+  </section>
+
+  <div class="breaker">
+    <img src="img/dots.png">
+  </div>
+
+  <!-- Contact Deatils-->
+  <section id="contact">
     <div class="container">
-      <div class="col-sm-12">
-        Copyright &copy; 2016 Madeleine Kingsley. All rights reserved.
+      <h2 class="text">
+        Contact Me
+      </h2>
+      <div class="sub-heading">
+        Need to contact me? That's great! Give me a call or send me an email</div>
+
+      <div class="row">
+        <div class="text-center col-md-6">
+          <a href="mailto:maddiekingsley1209@gmail.com">
+            <span class="glyphicon glyphicon-envelope" style="font-size: 70px;"></span>
+            <p>
+              maddiekingsley1209@gmail.com
+            </p>
+          </a>
+        </div>
+
+        <div class="col-sm-6 ">
+          <div class="phone-img">
+            <img src="img/telephone2.png" alt="Phone Symbol" width="40" height="40">
+          </div>
+          <p class="text-center">0481 259 281</p>
+        </div>
       </div>
     </div>
-  </footer>
+  </section>
+</div>
+<!-- Footer -->
+<footer class="text-center footer-below">
+  <div class="container">
+    <div class="col-sm-12">
+      Copyright &copy; 2016 Madeleine Kingsley. All rights reserved.
+    </div>
+  </div>
+</footer>
 
-  <!--Adjust icon padding as needed-->
+<!--Adjust icon padding as needed-->
 
-  <!-- Bootstrap core JavaScript
+<!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(function(){
+    $('#header').load('./header.html #header');
+  });
+</script>
 
 </body>
 
