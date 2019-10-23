@@ -153,6 +153,11 @@
           <img src="img/dots.png">
         </div>
 
+
+
+        <!-- Creates the bootstrap modal where the image will appear -->
+
+
         <h2>Research</h2>
         <p class="center-text">At Sniip, we worked in 2 week sprints, including the design team. For me,
           each sprint I was usually tasked with 1-3 stories, depending on the size and complexity.
@@ -163,8 +168,11 @@
           by looking at what other people are doing. Internal interviews shape the direction and in parallel
           get feedback early. Using Slack or having a quick conversations, I ask people in the office about
           their own lived experiences, create polls in channels or send private message with my questions.
-
         </p>
+
+        <div class="breaker">
+          <img src="img/dots.png">
+        </div>
 
         <h2>Ideation</h2>
         <p class="center-text">After the research phase (although that continues throughout) I make use of
@@ -176,23 +184,39 @@
           understand my constraints or possibilities. Anyone I can get my hands on is better than being stuck
           in my own head.
         </p>
-        <div class="row" style="background-color: #E6E6E6;">
-          <div class="col-xs-2 col-xs-offset-1">
-            <img src="img/sketch1.jpg" class="img-responsive" alt="Customer journey">
-          </div>
-          <div class="col-xs-2">
-            <img src="img/sketch2.jpg" class="img-responsive" alt="Myself Conducting interviews">
-          </div>
-          <div class="col-xs-2">
-            <img src="img/sketch3.jpg" class="img-responsive" alt="Myself Conducting interviews">
-          </div>
-          <div class="col-xs-2">
-            <img src="img/sketch4.jpg" class="img-responsive" alt="Myself Conducting interviews">
-          </div>
-          <div class="col-xs-2">
-            <img src="img/sketch5.jpg" class="img-responsive" alt="Myself Conducting interviews">
+
+      <div class="row">
+        <div class="pop">
+          <div class="col-sm-2 col-sm-offset-2 col-xs-3">
+            <img src="img/sketch2.jpg" class="img-responsive">
           </div>
         </div>
+
+        <div class="pop">
+          <div class="col-sm-2 col-xs-3">
+            <img src="img/sketch3.jpg" class="img-responsive">
+          </div>
+        </div>
+
+        <div class="pop">
+          <div class="col-sm-2 col-xs-3">
+            <img src="img/sketch4.jpg" class="img-responsive">
+          </div>
+        </div>
+
+        <div class="pop">
+          <div class="col-sm-2 col-xs-3">
+            <img src="img/sketch5.jpg" class="img-responsive">
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" data-dismiss="modal">
+            <img src="" class="imagepreview" style="width:100%;" >
+          </div>
+        </div>
+      </div>
+
         <div class="breaker">
           <img src="img/dots.png">
         </div>
@@ -241,26 +265,44 @@
           the outcomes.
 
         </p>
+
         <div class="row">
           <div class="col-xs-12 col-sm-8 col-sm-offset-2">
             <img src="img/testing-roadmap.png" class="img-responsive" alt="Customer journey">
           </div>
-
         </div>
+
         <div class="container">
+          <br></br>
           <div class="row">
-            <br></br>
-            <div class="col-xs-2 col-sm-offset-2">
-              <img src="img/testing-1.png" class="img-responsive" alt="">
+            <div class="pop">
+              <div class="col-sm-2 col-sm-offset-2 col-xs-6">
+                <img src="img/testing-1.png" class="img-responsive">
+              </div>
             </div>
-            <div class="col-xs-2">
-              <img src="img/testing-2.png" class="img-responsive" alt="">
+
+            <div class="pop">
+              <div class="col-sm-2 col-xs-6">
+                <img src="img/testing-2.png" class="img-responsive">
+              </div>
             </div>
-            <div class="col-xs-2">
-              <img src="img/testing-3.png" class="img-responsive" alt="">
+
+            <div class="pop">
+              <div class="col-sm-2 col-xs-6">
+                <img src="img/testing-3.png" class="img-responsive">
+              </div>
             </div>
-            <div class="col-xs-2">
-              <img src="img/testing-4.png" class="img-responsive" alt="">
+
+            <div class="pop">
+              <div class="col-sm-2 col-xs-6">
+                <img src="img/testing-4.png" class="img-responsive">
+              </div>
+            </div>
+
+            <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" data-dismiss="modal">
+                <img src="" class="imagepreview" style="width:100%;" >
+              </div>
             </div>
           </div>
         </div>
@@ -278,16 +320,16 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-xs-2 col-xs-offset-2">
+            <div class="col-sm-2 col-sm-offset-2 col-xs-3">
               <img src="img/Sniip4.png" class="img-responsive" alt="">
             </div>
-            <div class="col-xs-2">
+            <div class="col-sm-2 col-xs-3">
               <img src="img/Sniip5.png" class="img-responsive" alt="">
             </div>
-            <div class="col-xs-2">
+            <div class="col-sm-2 col-xs-3">
               <img src="img/Sniip6.png" class="img-responsive" alt="">
             </div>
-            <div class="col-xs-2">
+            <div class="col-sm-2 col-xs-3">
               <img src="img/Sniip7.png" class="img-responsive" alt="">
             </div>
           </div>

@@ -366,7 +366,7 @@ li {
 }
 
 .work-section{
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
 
 .topnav {
@@ -418,5 +418,8 @@ li {
   }
   .center-text{
       margin: 0px 10px !important;
+  }
+  .row{
+    padding-top: 15px;
   }
 }
