@@ -30,27 +30,30 @@
       rel="stylesheet">
   </head>
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Madeleine Kingsley</a>
+      <a href="previousEmployment.html">Work</a>
+      <a href="portfolio.html">University</a>
+      <a href="freelance.html">Projects</a>
+      <a href="img/Madeleine_kingsley_october_2019.pdf" target="_blank">Resume</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-    <header id="header" class="container site__header">
-
-    </header>
     <div class="home__wrapper">
       <div class="home__intro">
         <h1 class="home__intro__tagline">University Projects</h1>
       </div>
 
       <section class="portfolio_wrapper" id="portfolio">
-
-        <!-- Say Hello Wrapper -->
         <div class="container-fluid">
-          <div class="project__wrapper">
-            <img
-              src="img/sayHelloText.png"
-              alt="Say Hello Logo"
-              width="340"
-              height="240"
-              style="padding-left:70px;">
-            <div class="description">
+
+          <div class="project__wrapper row">
+            <div class="col-xs-12 col-sm-5">
+              <img src="img/sayHelloText.png" class="img-responsive" alt="" width="350" height="300">
+            </div>
+            <div class="description col-xs-12 col-sm-7">
               <div class="paragraphs">
                 As employees pass one another in the walkway, the walkway initiates delightful and highly
                 collaborative interactions between employees, encouraging them to say that initial‘Hello'. The final
@@ -62,10 +65,11 @@
             </div>
           </div>
 
-          <!-- Media Minute Wrapper -->
-          <div class="project__wrapper">
-            <img src="img/End-01.png" alt="Media Minute Logo" width="382" height="243">
-            <div class="description">
+          <div class="project__wrapper row">
+            <div class="col-xs-12 col-sm-5">
+              <img src="img/End-01.png" alt="Media Minute Logo" width="382" height="243">
+            </div>
+            <div class="description col-xs-12 col-sm-7">
               <div class="paragraphs">
                 An interactive, digital newsboard that supports multiple users and collects, collates and displays
                 news content according to users’ wants and needs. Media Minute is the answer to the issues
@@ -77,15 +81,11 @@
             </div>
           </div>
 
-          <!-- UQ Discover Wrapper -->
           <div class="project__wrapper">
-            <img
-              src="img/uqDiscoverLogo.png"
-              alt="UQ Discover Logo"
-              width="350"
-              height="243"
-              style="padding-left:50px;">
-            <div class="description">
+            <div class="col-xs-12 col-sm-5">
+              <img src="img/uqDiscoverLogo.png" alt="UQ Discover Logo" width="350" height="243">
+            </div>
+            <div class="description col-xs-12 col-sm-7">
               <div class="paragraphs">
                 Each year a new wave of students come through the halls of UQ, and it can be an overwhelming
                 experience for many students. Students may not be aware of the more specific resources such as
@@ -96,9 +96,11 @@
               <a class="read__more" href="uqdiscover.html">Read More</a>
             </div>
           </div>
+
         </div>
       </section>
     </div>
+
     <!-- Footer -->
     <footer class="text-center footer-below">
       <div class="container">
