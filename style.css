@@ -1,0 +1,438 @@
+/*Font Organisation*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  z-index: 2;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(43, 62, 81);
+  font-weight: bold;
+}
+
+.topnav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.float-right{
+  float: right!important;
+}
+
+.topnav a.active {
+  color: rgb(43, 62, 81);
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.section_container {
+  padding: 100px 0px;
+  padding-left: 100px;
+}
+
+.social_media {
+  display: block;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.heading_gap{
+  padding-bottom: 24px;
+  padding-top: 48px;
+}
+
+.paragraphs {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(43, 62, 81);
+  line-height: 1.5em;
+}
+
+.profile__picture {
+  width: 400px !important;
+  margin: 0 auto;
+}
+
+.background{
+  position: absolute;
+  width: 55%;
+  top: 1250px;
+  left: -30px;
+}
+
+.background2{
+  position: absolute;
+  width: 46%;
+}
+.background3{
+  background-color: #FF6B6B;
+}
+
+.white_text{
+  color: white !important;
+}
+.ux_image {
+  padding-top: 60px;
+}
+.read__more {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1rem;
+  width: auto;
+  background: white;
+  color: rgb(43, 62, 81);
+  border: 3px solid rgb(43, 62, 81);
+  text-align: center;
+  padding: 1rem;
+  transition: opacity 0.2s ease-in 0s, border-color 0.2s ease-in 0s, color 0.4s ease-in 0s, background-color 0.3s ease-in 0.1s;
+}
+.read__more__container {
+  padding-top: 60px;
+}
+
+.footer-below {
+  font-size: 14px;
+  padding-bottom: 60px;
+  color: white;
+}
+----
+
+
+
+h4 {
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(43, 62, 81);
+  font-weight: 100;
+}
+html, body {
+  width: 100%;
+}
+a {
+  color: black;
+  font-size: 1em;
+}
+a:focus {
+  color: #EE3659 !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #EE3659 !important;
+  text-decoration: none !important;
+}
+#nav ul li a.selected {
+  color: #EE3659 !important;
+}
+i {
+  color: grey;
+}
+
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: rgb(43, 62, 81);
+  line-height: 1.5em;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#freelance .description  {
+  text-align: inherit;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: grey;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -10px;
+  text-align: center;
+  color: #fff;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -10px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3, #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+#portfolio .portfolio-item {
+  margin: 0 0 30px;
+}
+#about {
+  padding-top: 50px;
+}
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#portfolio .paragraphs {
+  margin: auto;
+  text-align: left;
+}
+.center-text {
+  margin: 30px 150px !important;
+}
+.section-heading {
+  margin-top: 0;
+}
+#say-hello-project .wrapper-header {
+  background: url("img/group_black_white.png") no-repeat fixed center;
+  background-position: center;
+  background-size: cover;
+}
+#wallfly-project .wrapper-header {
+  background: url("img/wallflyHeader.png") no-repeat fixed center;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+}
+#media-minute-project .wrapper-header {
+  background: url("img/mediaminute_homepage.png") no-repeat fixed center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+}
+#uq-discover-project .wrapper-header {
+  width: 100%;
+  height: 420px;
+}
+.wrapper-header {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  z-index: 10;
+}
+.say-hello-text {
+  font-size: 5.5em;
+  color: rgb(255, 196, 10);
+  font-family: 'Pacifico', cursive;
+}
+.wallfly-text {
+  font-size: 7em;
+  color: orange;
+  font-family: 'Garamond', serif;
+  font-weight: bold;
+}
+.rainbow__logo {
+  width: 250px;
+  height: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.uq__discover__logo {
+  width: 400px;
+  height: 320px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.color {
+  color: white;
+  font-weight: 100;
+}
+.uq-discover-text {
+  font-size: 5.5em;
+  color: black;
+  font-family: 'Century Gothic', serif;
+}
+.button {
+  display: block;
+  width: 285px;
+  height: 50px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 189, 156);
+  padding-top: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+.phone-img {
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+}
+.site__header {
+  padding: 0;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  width: 100%;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site__logo {
+  font-size: 20pt;
+  line-height: 2.5em;
+  padding-left: 0;
+}
+.site__logo__name:before {
+  content: "Madeleine Kingsley";
+  font-size: 20pt;
+  line-height: 2.5em;
+  padding-left: 0;
+  float: left;
+  display: block;
+}
+a.site__logo__name:hover {
+  color: #FF6B6B;
+}
+a.site__logo__name:focus {
+  color: #FF6B6B;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+.nav-collapse ul {
+  float: right;
+  display: inline-block;
+  text-align: right;
+  list-style: none;
+}
+li {
+  font: inherit;
+  vertical-align: baseline;
+}
+.nav-collapse li:first-child {
+  padding-left: 0;
+}
+.nav-collapse li {
+  border: 0;
+  display: inline-block;
+  padding: 1em 2em;
+}
+.breaker {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*portfolio styling*/
+.project__title {
+  margin: auto;
+}
+.description {
+  display: block;
+  margin-right: 2.8425855704%;
+  width: 58.8629657719%;
+  margin-right: 0;
+  float: right;
+}
+
+.image__wrapper {
+  background-image: url(img/header_title.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.project__wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.list {
+  line-height: 2em;
+  text-align: left;
+  margin: 40px;
+}
+
+.work-section{
+  padding: 10px 0px;
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .about_me{
+    padding: 24px;
+  }
+  .profile__picture{
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none !important;
+    display: block;
+    text-align: left;
+  }
+  .center-text{
+      margin: 0px 10px !important;
+  }
+  .row{
+    padding-top: 15px;
+  }
+}
